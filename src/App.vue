@@ -1,20 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Auth></Auth>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Auth from './components/Auth.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Auth
   }
 }
 </script>
 
 <style>
+
+@font-face {
+  font-family: "ana";
+  src: local("ana"),   url(./fonts/ana.ttf) format("truetype");}
+
+  @font-face {
+  font-family: "inna";
+  src: local("inna"),   url(./fonts/inna.ttf) format("truetype");}
+
+    @font-face {
+  font-family: "sl";
+  src: local("sl"),   url(./fonts/sl.ttf) format("truetype");}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
